@@ -3,6 +3,7 @@ import os
 import sys
 import subprocess, shlex
 
+print("test")
 try:
 	ticks = str(sys.argv[1])
 except IndexError:
